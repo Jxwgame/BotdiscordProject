@@ -15,3 +15,4 @@ async def ping(ctx):
     await ctx.send("Pong!")
     
 bot.run("MTA0NjMzODYxMjc5MjQwNjAxNg.G2d3_G.gead5YgK6u8CJB7xLihigog310K4POgLsqN5tg")
+### Reset Token ของ Bot ต้องทักมาเอาส่วนตัว ###
