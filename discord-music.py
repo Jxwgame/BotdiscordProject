@@ -8,7 +8,7 @@ import time
 
 # Discord bot Initialization
 client = discord.Client()
-key = "MTA0ODk4MzcyMTk3NTQ4ODUzMg.GpTEZs.EtTxfZcbBKdneFsbmSCMWgiWz_j2-L7WgnzCC4"
+key = "Token Bot(ค่อยมาใส่ตอนทำ)"
 
 voice_clients = {}
 
