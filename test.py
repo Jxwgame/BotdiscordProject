@@ -9,7 +9,7 @@ client = commands.Bot(command_prefix= '$', intents = intents)
 
 @client.event
 async def on_ready():
-    print('Bot is ready')
+    print(f'{client.user.name} has connected to Discord!')
 
 @client.event
 async def on_member_join(member):
@@ -33,7 +33,18 @@ async def on_message(message):
     if message.author == client.user:
         return
     if 'hello' in message.content.lower():
-        await message.channel.send('Shut up')
+        await message.channel.send(f'Good morning!, {message.author.display_name}')
+
+#Blocking word
+block_words = ['peepee', 'poopoo', 'sex', 'obama']
+
+@client.event
+async def on_message(message):
+    if message.author is client.user:
+        for text in block_words:
+            if text in str(message.content.lower()):
+                await message.delete()
+                return
 
 #@client.command()
 #async def embed(ctx):
