@@ -1,5 +1,4 @@
-'''Open music''' #256064
-#ยังใช้ไม่ได้
+'''Open music'''
 import discord
 import os
 import asyncio
