@@ -18,11 +18,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-#Function
+#Bot standby 
 
 @client.event
 async def on_ready():
-	print('Ready.')
+	print(f'{client.user.name} has connected to Discord!')
+
+
+#Function
 
 def add(n: float, n2: float):
 	return n + n2
