@@ -6,8 +6,8 @@ import youtube_dl
 import time
 
 # Discord bot Initialization
-client = discord.Client()
-key = "Token Bot(ค่อยมาใส่ตอนทำ)"
+client = discord.Client(intents=discord.Intents.default())
+key = "ใส่Token"
 
 voice_clients = {}
 
