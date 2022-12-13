@@ -22,8 +22,32 @@ temp = data.findAll('p',{'class':'sub-content'})
 province = data.findAll('p',{'class','sub-title'})
 
 print('พยากรณ์อากาศสำหรับประเทศไทย18:00 น. วันนี้ ถึง 18:00 น. วันพรุ่งนี้\n')
-for i in range(0,7):
-    result_temp = temp[i].text.replace(' ','') #data
-    result_pv = province[i].text.replace(' ','') #position
-    print('{} : {}'.format(result_pv,result_temp))
+
+result_temp = temp[0].text.replace(' ','') #data
+result_pv = province[0].text.replace(' ','') #position
+print('{} : {}'.format(result_pv,result_temp))
+
+result_temp = temp[1].text.replace(' ','') #data
+result_pv = province[1].text.replace(' ','') #position
+print('{} : {}'.format(result_pv,result_temp))
+
+result_temp = temp[2].text.replace(' ','') #data
+result_pv = province[2].text.replace(' ','') #position
+print('{} : {}'.format(result_pv,result_temp))
+
+result_temp = temp[3].text.replace(' ','') #data
+result_pv = province[3].text.replace(' ','') #position
+print('{} : {}'.format(result_pv,result_temp))
+
+result_temp = temp[4].text.replace(' ','') #data
+result_pv = province[4].text.replace(' ','') #position
+print('{} : {}'.format(result_pv,result_temp))
+
+result_temp = temp[5].text.replace(' ','') #data
+result_pv = province[5].text.replace(' ','') #position
+print('{} : {}'.format(result_pv,result_temp))
+
+result_temp = temp[6].text.replace(' ','') #data
+result_pv = province[6].text.replace(' ','') #position
+print('{} : {}'.format(result_pv,result_temp))
     
