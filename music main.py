@@ -21,4 +21,4 @@ client.add_cog(help_cog(client))
 client.add_cog(music_cog(client))
 
 #start the bot with our token
-client.run('your token')
+client.run('MTA0ODUxMjEzNTc3ODUzMzQ2Ng.G1zRGb.-6kXVkIbFp1kk7WmbRFpOs1XQ8XlrFwwbUVJYk')
