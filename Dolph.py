@@ -8,7 +8,6 @@ import asyncio
 import random
 import math
 #music
-from help_cog import help_cog
 from music_cog import music_cog
 #weather report
 from urllib.request import urlopen as req
@@ -23,7 +22,6 @@ client = commands.Bot(command_prefix= '!', intents = intents)
 
 #Import music cogs
 client.remove_command('help')
-client.add_cog(help_cog(client))
 client.add_cog(music_cog(client))
 
 
